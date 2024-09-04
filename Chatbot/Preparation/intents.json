@@ -1,0 +1,78 @@
+{"intents": [
+    {"tag": "greetings",
+     "pattern": ["Hello", "Hey", "Hi", "Howdy", "What's Up", "How's it going", "I need help"],
+     "response": ["Hey", "Hello", "How can I help you", "What can I do for you", "Hi", "What's the issue your having"]
+    },
+    {"tag": "goodbye",
+     "pattern": ["cya", "Later", "bye", "goodbye", "I am leaving", "See you later", "Farewell", "Ciao", "Adios"],
+     "response": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {"tag": "software_installation",
+     "pattern": ["How do I install [Software Name]?", "Help me install [Software Name]", "Guide me through installing [Software Name]"],
+     "response": ["Sure I can help, To install [Software Name], please follow these steps: 1. Download the installer from the official website. 2. Run the installer and ollow the on-screen instructions. 3. Choose the installation directory if prompted. 4. Once installation is complete, launch the software from the start Menu or Desktop Shortcut."]
+    },
+    {"tag": "software_uninstallation",
+     "pattern": ["How do I uninstall [Software Name]?", "Remove [Software Name] from my computer", "Help me uninstall [Software Name]", "Can you help remove [Software Name]?", "How to delete [Software Name] off my computer?"],
+     "response": ["Yes I can help uninstall [Software Name]. To do so, follow these steps: 1. Open the control Panel. 2. Navigate to Programs and Features. 3. Find [Software Name] in the list, right-click it, and click Uninstall"]
+    },
+    {"tag": "software_update",
+     "pattern": ["How do I update [Software Name]?", "Help me update [Software Name]", "Is there a new version of [Software Name]?"],
+     "response": ["To update the software, 1. Open the software. 2. Go the Help or About section. 3. Check for updates and download any available updates. 4 Restart the software after the update is installed."]
+    },
+    {"tag": "application_crash",
+     "pattern": ["[Software Name] keeps crashing, what should I do?", "Why does [Software Name] crash on startup?", "[Software Name] froze, what should I do?"],
+     "response":["Tp resolve application crashing, 1. Restart your computer and try launching the application again. 2. Ensure that your software is up to date. 3. Check if there are any conflicting applications running. 4. Reinstall the application if the issue persists. 5. Contact support of none of the above steps work."]
+    },
+    {"tag": "printer_help",
+     "pattern": ["My printer isn't working, what should I do", "I can't print anything, can you help", "printer not working", "printer stopped working", "need help with printer"],
+     "response": ["If your printer isn't working, 1. Ensure that the printer is turned on and connected to the computer. 2. Check if there are any error messages or blinking lights on the printer. 3. Verify that the printer has enough paper, ink, or toner. 4. Restart both the printer and your computer. 5. Try reinstalling the printer drivers."]
+    },
+    {"tag": "printer_setup",
+     "pattern": ["How do I set up my printer", "Guide me through connecting my printer"],
+     "response": ["To get start setting your printer up, 1. Unbox the printer and connect it to a power source. 2. Install the ink or toner cartridges and load paper into the tray. 3. Connect the printer to your computer via USB or Wi-Fi. 4. Install the printer drivers by downloading them from the manufacturer's website or using the installation CD. 5. Set the printer as your default device in the Control Panel."]
+    },
+    {"tag": "slow_performance_pc",
+     "pattern": ["My computer is running slow, how can I fix it?", "Why is my PC so slow", "PC performing slow", "My PC keeps running slow, can you help?", "My PC is slow"],
+     "response": ["To improve your PC's performance, 1. Close any unnecessary programs or broswer tabs. 2. Run a virus/malware scan to ensure your sytem is clean. 3. Delete temporary files and perform a disk cleanup. 4. Check if any software updates are pending and install them. 5. Consider upgrading your RAM or switching to an SSD for better performance."]
+    }, 
+    {"tag": "hardware_troubleshooting",
+     "pattern": ["How do I troubleshoot my PC hardware?", "I'm having hardware issues with my computer.", "Help troubleshoot my PC"],
+     "response": ["For hardware issues, 1. Restart your computer and check if the issue persists. 2. Ensure all cables and connections are secure. 3. Check Device Manager for any hardware devices with a yellow triangle or exlamation mark, indicating a driver issue. 4. Update or reinstall the device drivers. 5. Test the hardware on another computer to determine if the issue is with the hardware itself."]
+    },
+    {"tag": "usb_device_troubleshoot",
+    "pattern": ["My USB drive is not being detected, what should I do?", "USB not found, can you help?", "Why isn't my USB device recognized?", "USB not recognized, help me"],
+    "response": ["If your USB device is not detected, 1. Try connecting the device to a different USB port. 2. Restart your computer and reconnect the USB device. 3 Check Device Manager to see if the device appears under Universal Serial Bus controllers, if it does update the driver. 4. Test the USB device on another computer to check if the issue is with the device itself. 5. If the device still isn't recognized, the USB port might be faulty."]
+    }, 
+    {"tag": "wifi_connection_help",
+     "pattern": ["I can't connect to the WiFi, what should I do", "Wi-Fi not working, help me", "My Wi-Fi isn't working", "Help me connect to the Wi-Fi network"],
+     "response": ["To connect to Wi-Fi, 1. Ensure that Wi-Fi is turned on in your device's settings. 2. Select the desired network from the list of available networks. 3. Enter the network password if prompted. 4. If you still can't connect, restart your router and try again. 5. Ensure that you are within range of the Wi-Fi network."]
+    },
+    {"tag": "vpn_connection_help",
+     "pattern": ["How do I connect to the VPN?", "I'm having trouble with my VPN connection", "Help me connection to the VPN"],
+     "response": ["Connecting to a VPN you must, 1. Open your VPN client and ensure you are connected to the internet. 2. Enter your VPN credentials (username and password). 3. Select the appropriate server or network to connect to. 4. Click Connect and wati for the connection to be established. 5. If you encounter issues, try restarting the VPN client or your computer."]
+    },
+    {"tag": "slow_performance_network",
+     "pattern": ["Why is my internet so slow?", "Wi-Fi running slow, help me", "The network is slow, how can I fix it", "My Wi-Fi is running slow, help fix it", "My Wi-Fi is slow"],
+     "response": ["Yes, to fix slow internet connections, 1. Restart your router and modem. 2. Ensure that no other devices are consuming too much bandwidth. 3. Run a speed test to check your internet connection speed. 4. Move sloser to the router if you're on Wi-Fi. 5. Contact your ISP if the issue persists."]
+    },
+    {"tag": "unable_to_access_website",
+     "pattern": ["I can't access [Website Name], what should I do?", "Why can't I reach [Website Name]?"],
+     "response": ["If you can't acces a website: 1. Check your internet connection and ensure it's stable. 2. Clear your browser cache and coookies. 3. Try accessing the website from a different browser or device. 4. Check if the website is down using an online service like DownDetector. 5. If you are still unable to access the site, the issue might be with your DNS settings."]
+    },
+    {"tag": "network_troubleshooting",
+     "pattern": ["How do I troubleshoot network issues?", "Guide me through fixing my network problems", "I'm having netowking issues, what can I do to fix it", "Help me fix netowrk problems"],
+     "response": ["To troubleshoot network issues: 1. Restart your moden and router. 2. Use the Network Troubleshooter in Windows by going to Settings > Network & Internet > Status > Network troubleshooter. 3. Check if other devices on the network are facing similar issues. 4. Flush your DNS cache by typing ipconfig /flushdns in Command Prompt. 5. If the issues persists, contact your network administrator or ISP."]
+    }, 
+    {"tag": "password_reset_help",
+     "pattern": ["How do I reset my password?", "I forgot my password, can you help me reset it?", "What can I do to reset my password?"],
+     "response": ["Sure, To reset your password: 1. Go to the login page and click on Forgot Password. 2. Enter your registered email address and submit. 3. Check your email fora password reset link and follow the instruction. 4. Choose a new password that meets the security requirements. 5. If you don't receive an email, check your spam folder or contact support."]
+    },
+    {"tag": "account_locked_help",
+     "pattern": ["My account is locked, how can I unlock it?", "I can't acces my account because it's locked"],
+     "response": ["If your account is locked: 1. Wait for 30 minutes to see if the account unlocks automatically. 2. Contact IT support to unlock your account. 3.Ensure that your login attempts are correct to avoid futre lockouts. 4. Conside setting up multi-factor authentication to enhance security."]
+    }, 
+    {"tag": "multi_factor_authentication_help",
+     "pattern": ["How do I set up multi-factor authentication?", "I need help with two-factor authentication."],
+     "response": ["To set up multi-factor authentication: 1. Log in to your account and go to the security settings. 2. Find the Multi-Factor Authentication or Two-Step verification section. 3. Choose a method (e.g., SMS, Authenticator App) and follow the setup instructions. 4. Verify the setup by entering the code sent to your chosen method. 5. Save backup codes in case you lose access to your primary method."]
+    }
+]}
